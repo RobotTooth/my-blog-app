@@ -1,33 +1,31 @@
 import "./topbar.css";
 
-function TopBar() {
+export default function TopBar() {
   return (
     <div className="top">
-      <div className="top-left">
-        <i className="top-icon fa-brands fa-square-facebook"></i>
-        <i className="top-icon fa-brands fa-github"></i>
-        <i className="top-icon fa-brands fa-linkedin"></i>
-        <i className="top-icon fa-brands fa-instagram"></i>
+      <div className="topLeft">
+        <i className="topIcon fa-brands fa-square-facebook"></i>
+        <i className="topIcon fa-brands fa-github"></i>
+        <i className="topIcon fa-brands fa-linkedin"></i>
+        <i className="topIcon fa-brands fa-instagram"></i>
       </div>
-      <div className="top-center">
-        <ul className="top-list">
-          <li className="top-list-item">HOME</li>
-          <li className="top-list-item">ABOUT</li>
-          <li className="top-list-item">ART WORK</li>
-          <li className="top-list-item">PROJECTS</li>
-          <li className="top-list-item">CONTACT</li>
+      <div className="topCenter">
+        <ul className="topList">
+          <li className="topListItem">HOME</li>
+          <li className="topListItem">ABOUT</li>
+          <li className="topListItem">WRITE</li>
+          <li className="topListItem">PROJECTS</li>
+          <li className="topListItem">CONTACT</li>
         </ul>
       </div>
-      <div className="top-right">
+      <div className="topRight">
         <img
-          className="top-image"
+          className="topImage"
           src="/images/profile-pic.png"
           alt="Chris Meysner"
         ></img>
-        <i className="top-search-icon fa-solid fa-magnifying-glass"></i>
+        <i className="topSearchIcon fa-solid fa-magnifying-glass"></i>
       </div>
     </div>
   );
 }
-
-export default TopBar;

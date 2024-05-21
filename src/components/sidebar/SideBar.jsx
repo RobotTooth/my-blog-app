@@ -4,12 +4,12 @@ export default function SideBar() {
   return (
     <>
       <div className="sidebar">
-        <div className="sidebar-item">
-          <span className="sidebar-title">ABOUT ME</span>
+        <div className="sidebarItem">
+          <span className="sidebarTitle">ABOUT ME</span>
           <img
             src="/images/profile-pic-2.png"
             alt="Chirs Meysner"
-            className="profile-img"
+            className="profileImg"
           />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore vero
@@ -18,24 +18,24 @@ export default function SideBar() {
             aspernatur laborum accusamus?
           </p>
         </div>
-        <div className="sidebar-item">
-          <span className="sidebar-title">CATEGORIES</span>
-          <ul className="sidebar-list">
-            <li className="sidebar-list-item">Life</li>
-            <li className="sidebar-list-item">Art</li>
-            <li className="sidebar-list-item">Family</li>
-            <li className="sidebar-list-item">Gaming</li>
-            <li className="sidebar-list-item">Television</li>
-            <li className="sidebar-list-item">Movies</li>
+        <div className="sidebarItem">
+          <span className="sidebarTitle">CATEGORIES</span>
+          <ul className="sidebarList">
+            <li className="sidebarListItem">Life</li>
+            <li className="sidebarListItem">Art</li>
+            <li className="sidebarListItem">Family</li>
+            <li className="sidebarListItem">Gaming</li>
+            <li className="sidebarListItem">Television</li>
+            <li className="sidebarListItem">Movies</li>
           </ul>
         </div>
-        <div className="sidebar-item">
-          <span className="sidebar-title">FOLLOW ME</span>
-          <div className="sidebar-social">
-            <i className="sidebar-icon fa-brands fa-square-facebook"></i>
-            <i className="sidebar-icon fa-brands fa-github"></i>
-            <i className="sidebar-icon fa-brands fa-linkedin"></i>
-            <i className="sidebar-icon fa-brands fa-instagram"></i>
+        <div className="sidebarItem">
+          <span className="sidebarTitle">FOLLOW ME</span>
+          <div className="sidebarSocial">
+            <i className="sidebarIcon fa-brands fa-square-facebook"></i>
+            <i className="sidebarIcon fa-brands fa-github"></i>
+            <i className="sidebarIcon fa-brands fa-linkedin"></i>
+            <i className="sidebarIcon fa-brands fa-instagram"></i>
           </div>
         </div>
       </div>

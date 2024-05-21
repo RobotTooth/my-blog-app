@@ -2,27 +2,27 @@ import "./singlePost.css";
 
 export default function SinglePost() {
   return (
-    <div className="single-post">
-      <div className="single-post-wrapper">
+    <div className="singlePost">
+      <div className="singlePostWrapper">
         <img
-          className="single-post-img"
+          className="singlePostImg"
           src="./images/post-image.png"
           alt=""
         ></img>
-        <h1 className="single-post-title">
+        <h1 className="singlePostTitle">
           Lorem ipsum dolor, sit amet
-          <div className="single-post-edit">
-            <i className="single-post-icon fa-regular fa-pen-to-square"></i>
-            <i className="single-post-icon fa-regular fa-trash-can"></i>
+          <div className="singlePostEdit">
+            <i className="singlePostIcon fa-regular fa-pen-to-square"></i>
+            <i className="singlePostIcon fa-regular fa-trash-can"></i>
           </div>
         </h1>
-        <div className="single-post-info">
-          <span className="single-post-author">
+        <div className="singlePostInfo">
+          <span className="singlePostAuthor">
             Author: <b>Chris</b>
           </span>
-          <span className="single-post-date">1 hour ago</span>
+          <span className="singlePostDate">1 hour ago</span>
         </div>
-        <p className="single-post-desc">
+        <p className="singlePostDesc">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias saepe
           et accusantium, necessitatibus quas excepturi facilis rerum quia
           repudiandae quo corporis veniam numquam adipisci dicta consequuntur

@@ -3,23 +3,19 @@ import "./post.css";
 export default function Post() {
   return (
     <div className="post">
-      <img
-        className="post-img"
-        src="/images/post-image.png"
-        alt="water falls"
-      />
-      <div className="post-info">
-        <div className="post-cats">
-          <span className="post-cat">Music</span>
-          <span className="post-cat">Life</span>
+      <img className="postImg" src="/images/post-image.png" alt="water falls" />
+      <div className="postInfo">
+        <div className="postCats">
+          <span className="postCat">Music</span>
+          <span className="postCat">Life</span>
         </div>
-        <span className="post-title">
+        <span className="postTitle">
           Lorem ipsum dolor sit amet consectetur adipisicing elit.
         </span>
         <hr />
-        <span className="post-date">1 hour ago</span>
+        <span className="postDate">1 hour ago</span>
       </div>
-      <p className="post-desc">
+      <p className="postDesc">
         Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quibusdam,
         nesciunt. Voluptates iusto eaque fugit laborum laudantium atque
         cupiditate corporis animi aut ad! Laudantium molestiae asperiores soluta
