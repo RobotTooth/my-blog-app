@@ -1,25 +1,31 @@
-import "./login.css";
+import "./register.css";
 
-export default function Login() {
+export default function Register() {
   return (
-    <div className="login">
-      <span className="loginTitle">Login</span>
-      <form className="loginForm">
+    <div className="register">
+      <span className="registerTitle">Register</span>
+      <form className="registerForm">
+        <label>Username</label>
+        <input
+          type="text"
+          className="registerInput"
+          placeholder="Enter your username..."
+        />
         <label>Email</label>
         <input
           type="text"
-          className="loginInput"
+          className="registerInput"
           placeholder="Enter your email..."
         />
         <label>Password</label>
         <input
           type="password"
-          className="loginInput"
+          className="registerInput"
           placeholder="Enter your password..."
         />
-        <button className="loginButton">Login</button>
+        <button className="registerButton">Register</button>
       </form>
-      <button className="loginRegisterButton">Register</button>
+      <button className="registerLoginButton">Login</button>
     </div>
   );
 }
